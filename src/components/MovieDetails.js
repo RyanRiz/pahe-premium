@@ -3,7 +3,7 @@ import Category from './Category'
 
 function MovieDetails() {
   return (
-    <div className='flex mx-5 py-5 my-5 px-5 space-x-10 items-center border border-black bg-[#222]'>
+    <div className='flex mx-5 py-5 mb-5 mt-2 px-5 space-x-10 items-center shadow-2xl bg-[#222]'>
         <div className='pl-3'>
             <img src='assets/poster.jpg' className='rounded' width={230} />
         </div>

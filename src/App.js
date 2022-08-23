@@ -13,12 +13,14 @@ function App() {
       <Layout>
         <Header />
         <Navbar />
-        <Title />
-        <MovieDetails />
-        <Mediainfo />
-        <Details />
-        <Stream />
-        <Related />
+        <div className="m-5 pt-5 shadow-2xl border border-[#2b2b2b]">
+          <Title />
+          <MovieDetails />
+          <Mediainfo />
+          <Details />
+          <Stream />
+          <Related />
+        </div>
       </Layout>
   );
 }
